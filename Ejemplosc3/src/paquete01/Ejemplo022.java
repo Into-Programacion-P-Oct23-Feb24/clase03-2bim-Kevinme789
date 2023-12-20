@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo02 {
+public class Ejemplo022 {
 
     /**
      * @param args the command line arguments
@@ -36,7 +36,11 @@ public class Ejemplo02 {
                         + "[%d][%d]\n",
                         fila, col);
                 valor = sc.nextInt();
-                arreglo1[fila][col] = valor;
+                if (valor % 2 == 0 && valor >= 10) {
+                    arreglo1[fila][col] = 0;
+                } else {
+                    arreglo1[fila][col] = valor;
+                }
             }
         }
 
