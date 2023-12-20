@@ -26,7 +26,7 @@ public class Ejemplo022 {
         System.out.printf("Uso de la opción length: %d\n",
                 arreglo1.length);
 
-        System.out.printf("Valor en la posición [0][2]\n",
+        System.out.printf("Valor en la posición git [0][2]\n",
                 arreglo1[0][2]);
 
         arreglo1[0][2] = 1000;
